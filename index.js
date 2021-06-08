@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
 <div align = "center">${answer.desc}<div>
 <img src="${answer.screenshot}" align="center" alt="Screenshot of Application">
     `
-    fs.appendFile('readme.md', head, err => {
+    fs.appendFile('fakereadme.md', head, err => {
       if (err) { console.log(err) }
     })
 
@@ -90,7 +90,7 @@ Please visit my github at https://github.com/${answer.github}/ to see this proje
   `
 
 
-    fs.appendFile('readme.md', markdownBody + markdownFoot, err => {
+    fs.appendFile('fakereadme.md', markdownBody + markdownFoot, err => {
       if (err) { console.log(err) }
       console.log('README File Created!')
     })
