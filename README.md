@@ -1,11 +1,20 @@
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
+## Description
+```
+Terminal program using Node JS and NPM to generate a README based on user input
+```
+
+## How to use
+```
+Download the repository, use the command "npm init -y" then "npm i". After that, run "node index.js" to see the program run in the terminal.
+```
+
 ## Tech Used
 ```
 Node.js Inquirer NPM
 ```
 
-Because this is a command-line application that won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates the functionality of your application. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer.
 
 ## User Story
 
